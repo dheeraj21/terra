@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Gallery Masonry | TERRADRAFT</title>
+        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+
+        <link rel="stylesheet" href="css/gallery-masonry.min.css" />
+    </head>
+    <body>
+        <header class="header primary-bg" data-page="gallery-masonry">
+            <div class="header_navbar">
+                <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
+                    <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631" />
+                            <path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631" />
+                            <path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574" />
+                            <path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574" />
+                        </svg>
+
+                        TERRADRAFT<span class="highlight"></span>
+                    </a>
+                    <nav class="header_navbar-nav">
+                        <ul class="header_navbar-nav_list">
+                            <li class="list-item">
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Home <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="index.html" data-page="home">Home</a>
+                                    <a class="link link--single" href="index2.html" data-page="home2">Home 2</a>
+                                </div> -->
+                                <a class="link link--single" href="index.html" data-page="home">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link link--single" href="about.html" data-page="about">About</a>
+                            </li>
+                            
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Projects <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="projects.html" data-page="projects">Projects</a>
+                                    <a class="link link--single" href="projects2.html" data-page="projects2">Projects 2</a>
+                                    <a class="link link--single" href="single-project.html" data-page="single-project">Single project</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="projects2.html" data-page="projects2">Projects 2</a> -->
+                            <!-- </li> -->
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Blog <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="blog.html" data-page="blog">Blog</a>
+                                    <a class="link link--single" href="blog2.html" data-page="blog2">Blog 2</a>
+                                    <a class="link link--single" href="single-post.html" data-page="single-post">Single post</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="blog.html" data-page="blog">Blog</a> -->
+                            <!-- </li> -->
+                            <li class="list-item">
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Contacts <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="contacts.html" data-page="contacts">Contacts</a>
+                                    <a class="link link--single" href="contacts2.html" data-page="contacts2">Contacts 2</a>
+                                </div> -->
+                                <a class="link link--single" href="contacts2.html" data-page="contacts2">Contacts</a>
+                            </li>
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Pages <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="faq.html" data-page="faq">FAQ</a>
+                                    <a class="link link--single" href="gallery-grid.html" data-page="gallery-grid">Gallery grid</a>
+                                    <a class="link link--single" href="gallery-masonry.html" data-page="gallery-masonry">Gallery masonry</a>
+                                    <a class="link link--single" href="404.html" data-page="404">404</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="gallery-masonry.html" data-page="gallery-masonry">Gallery masonry</a> -->
+                            <!-- </li> -->
+                        </ul>
+                    </nav>
+                    <button class="hamburger">
+                        <span class="line line--short"></span>
+                        <span class="line"></span>
+                        <span class="line line--short"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header_extension">
+                <div class="container">
+                    <div class="section_header">
+                        <span class="subtitle subtitle--extended">PORTFOLIO</span>
+                        <h1 class="title">SURVEYING DESIGN</h1>
+                        <!-- <ul class="breadcrumbs d-flex align-items-center">
+                            <li class="breadcrumbs_item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="breadcrumbs_item breadcrumbs_item--current">
+                                <span>ARCHITECTURE DESIGN</span>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        <!-- GALLERY masonry CONTENT START -->
+        <main class="gallery section">
+            <div class="container">
+                <ul class="gallery_filters d-flex flex-wrap align-items-baseline justify-content-md-between">
+                    
+                    
+                    <li class="list-item">
+                        <a data-target="all" class="gallery_filters-filter current" href="#">All</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Topographic Survey" class="gallery_filters-filter" href="#">Topographic Survey</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Boundary Survey" class="gallery_filters-filter" href="#">Boundary Survey</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a data-target="As Built Drawings" class="gallery_filters-filter" href="#">As Built Drawings</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Subdivision Plats" class="gallery_filters-filter" href="#">Subdivision Plats</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Landscape Development" class="gallery_filters-filter" href="#">Landscape Development</a>
+                    </li>
+                    
+                    
+                    
+                </ul>
+                <div class="gallery_masonry row g-0">
+                    
+                    
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Topographic Survey"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy129.jpg"
+                            data-caption="topo"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy129.jpg"
+                                        srcset="img\terra\srvy129.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy129.jpg"
+                                        src="img\terra\srvy129.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Topographic Survey</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+                    
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Boundary Survey"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy130.jpg"
+                            data-caption="Boundary Survey"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy130.jpg"
+                                        srcset="img\terra\srvy130.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy130.jpg"
+                                        src="img\terra\srvy130.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Boundary Survey</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["As Built Drawings"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy125.jpg"
+                            data-caption="As Built Drawings"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy125.jpg"
+                                        srcset="img\terra\srvy125.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy125.jpg"
+                                        src="img\terra\srvy125.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">As Built Drawings</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Subdivision Plats"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy128.jpg"
+                            data-caption="Subdivision Plats"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy128.jpg"
+                                        srcset="img\terra\srvy128.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy128.jpg"
+                                        src="img\terra\srvy128.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Subdivision Plats</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+                    
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Subdivision Plats"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy133.jpg"
+                            data-caption="Subdivision Plats"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy133.jpg"
+                                        srcset="img\terra\srvy133.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy133.jpg"
+                                        src="img\terra\srvy133.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Subdivision Plats</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Landscape Development"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy134.jpg"
+                            data-caption="Subdivision Plats"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy134.jpg"
+                                        srcset="img\terra\srvy134.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy134.jpg"
+                                        src="img\terra\srvy134.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Landscape Development</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Landscape Development"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy131.jpg"
+                            data-caption="Subdivision Plats"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy131.jpg"
+                                        srcset="img\terra\srvy131.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy131.jpg"
+                                        src="img\terra\srvy131.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Tree Plantation landscape</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Landscape Development"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy132.jpg"
+                            data-caption="Subdivision Plats"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy132.jpg"
+                                        srcset="img\terra\srvy132.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy132.jpg"
+                                        src="img\terra\srvy132.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Plantation landscape</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Boundary Survey"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\srvy135.jpg"
+                            data-caption="Boundary Survey"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\srvy135.jpg"
+                                        srcset="img\terra\srvy135.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\srvy135.jpg"
+                                        src="img\terra\srvy135.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Boundary Survey</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    
+
+                    
+                </div>
+            </div>
+        </main>
+        <!-- GALLERY masonry CONTENT END -->
+        <footer class="footer primary-bg">
+            <div class="container">
+                
+                <div class="footer_secondary col-12 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+                    <p class="footer_secondary-copyright">
+                        <span>TERRADRAFT &copy; MARKETING</span>
+                        <span>All rights reserved Copyrights 2024</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </footer>
+        <button id="scrollToTop" type="button">
+            <i class="icon icon-arrow_right"></i>
+        </button>
+        <script src="js/common.min.js"></script>
+    </body>
+</html>

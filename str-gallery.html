@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Gallery Masonry | TERRADRAFT</title>
+        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+
+        <link rel="stylesheet" href="css/gallery-masonry.min.css" />
+    </head>
+    <body>
+        <header class="header primary-bg" data-page="gallery-masonry">
+            <div class="header_navbar">
+                <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
+                    <a class="brand d-inline-flex align-items-center justify-content-center" href="index.html">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0V12L7.00543 6.48334L0 0Z" fill="#FFC631" />
+                            <path d="M0 31L7.00543 24.5151L0 19V31Z" fill="#FFC631" />
+                            <path d="M12.8208 14.3662L30.0233 0H19.9966L0 16L12.8208 14.3662Z" fill="#0DA574" />
+                            <path d="M0 16L19.9966 31H30.0233L12.8208 17.5239L0 16Z" fill="#0DA574" />
+                        </svg>
+
+                        TERRADRAFT<span class="highlight"></span>
+                    </a>
+                    <nav class="header_navbar-nav">
+                        <ul class="header_navbar-nav_list">
+                            <li class="list-item">
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Home <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="index.html" data-page="home">Home</a>
+                                    <a class="link link--single" href="index2.html" data-page="home2">Home 2</a>
+                                </div> -->
+                                <a class="link link--single" href="index.html" data-page="home">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link link--single" href="about.html" data-page="about">About</a>
+                            </li>
+                            
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Projects <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="projects.html" data-page="projects">Projects</a>
+                                    <a class="link link--single" href="projects2.html" data-page="projects2">Projects 2</a>
+                                    <a class="link link--single" href="single-project.html" data-page="single-project">Single project</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="projects2.html" data-page="projects2">Projects 2</a> -->
+                            <!-- </li> -->
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Blog <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="blog.html" data-page="blog">Blog</a>
+                                    <a class="link link--single" href="blog2.html" data-page="blog2">Blog 2</a>
+                                    <a class="link link--single" href="single-post.html" data-page="single-post">Single post</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="blog.html" data-page="blog">Blog</a> -->
+                            <!-- </li> -->
+                            <li class="list-item">
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Contacts <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="contacts.html" data-page="contacts">Contacts</a>
+                                    <a class="link link--single" href="contacts2.html" data-page="contacts2">Contacts 2</a>
+                                </div> -->
+                                <a class="link link--single" href="contacts2.html" data-page="contacts2">Contacts</a>
+                            </li>
+                            <!-- <li class="list-item"> -->
+                                <!-- <button class="dropdown-trigger d-inline-flex align-items-center">
+                                    Pages <i class="icon-chevron_right icon"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a class="link link--single" href="faq.html" data-page="faq">FAQ</a>
+                                    <a class="link link--single" href="gallery-grid.html" data-page="gallery-grid">Gallery grid</a>
+                                    <a class="link link--single" href="gallery-masonry.html" data-page="gallery-masonry">Gallery masonry</a>
+                                    <a class="link link--single" href="404.html" data-page="404">404</a>
+                                </div> -->
+                                <!-- <a class="link link--single" href="gallery-masonry.html" data-page="gallery-masonry">Gallery masonry</a> -->
+                            <!-- </li> -->
+                        </ul>
+                    </nav>
+                    <button class="hamburger">
+                        <span class="line line--short"></span>
+                        <span class="line"></span>
+                        <span class="line line--short"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header_extension">
+                <div class="container">
+                    <div class="section_header">
+                        <span class="subtitle subtitle--extended">PORTFOLIO</span>
+                        <h1 class="title">STRUCTURE DESIGN</h1>
+                        <!-- <ul class="breadcrumbs d-flex align-items-center">
+                            <li class="breadcrumbs_item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="breadcrumbs_item breadcrumbs_item--current">
+                                <span>ARCHITECTURE DESIGN</span>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+                <picture>
+                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" data-role="deco" />
+                    <img class="lazy plan" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" data-role="deco" />
+                </picture>
+            </div>
+        </header>
+        <!-- GALLERY masonry CONTENT START -->
+        <main class="gallery section">
+            <div class="container">
+                <ul class="gallery_filters d-flex flex-wrap align-items-baseline justify-content-md-between">
+                    
+                    
+                    <li class="list-item">
+                        <a data-target="all" class="gallery_filters-filter current" href="#">All</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Foundation Design" class="gallery_filters-filter" href="#">Foundation Design</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Framing Design" class="gallery_filters-filter" href="#">Framing Design</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a data-target="Section Design" class="gallery_filters-filter" href="#">Section Design</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Structural analysis" class="gallery_filters-filter" href="#">Structural analysis</a>
+                    </li>
+                    <li class="list-item">
+                        <a data-target="Connections Design" class="gallery_filters-filter" href="#">Connections Design</a>
+                    </li>
+                    
+                    
+                    
+                </ul>
+                <div class="gallery_masonry row g-0">
+                    
+                    
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Foundation Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str125.jpg"
+                            data-caption="Foundation Design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str125.jpg"
+                                        srcset="img\terra\str125.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str125.jpg"
+                                        src="img\terra\str125.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Foundation Design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+                    
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Framing Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str126.jpg"
+                            data-caption="Framing Design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str126.jpg"
+                                        srcset="img\terra\str126.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str126.jpg"
+                                        src="img\terra\str126.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Framing Design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Foundation Design","Framing Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str127.jpg"
+                            data-caption="Foundation Design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str127.jpg"
+                                        srcset="img\terra\str127.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str127.jpg"
+                                        src="img\terra\str127.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Foundation & Framing Design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Section Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str128.jpg"
+                            data-caption="Section design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str128.jpg"
+                                        srcset="img\terra\str128.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str128.jpg"
+                                        src="img\terra\str128.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Section Design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+                    
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Foundation Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str129.jpg"
+                            data-caption="Foundation design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str129.jpg"
+                                        srcset="img\terra\str129.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str129.jpg"
+                                        src="img\terra\str129.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Foundation plan</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str130.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str130.jpg"
+                                        srcset="img\terra\str130.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str130.jpg"
+                                        src="img\terra\str130.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Structural analysis</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str131.jpg"
+                            data-caption="pemb structure"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str131.jpg"
+                                        srcset="img\terra\str131.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str131.jpg"
+                                        src="img\terra\str131.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">PEMB Structure</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Connections Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str132.jpg"
+                            data-caption="foundation connection"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str132.jpg"
+                                        srcset="img\terra\str132.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str132.jpg"
+                                        src="img\terra\str132.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Foundation connection design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Connections Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str133.jpg"
+                            data-caption="Column beam connection"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str133.jpg"
+                                        srcset="img\terra\str133.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str133.jpg"
+                                        src="img\terra\str133.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Column Beam Connection</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str134.jpg"
+                            data-caption="Truss structure"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str134.jpg"
+                                        srcset="img\terra\str134.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str134.jpg"
+                                        src="img\terra\str134.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Truss structure</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Connections Design","Section Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str135.jpg"
+                            data-caption="Connections design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str135.jpg"
+                                        srcset="img\terra\str135.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str135.jpg"
+                                        src="img\terra\str135.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Connections Design</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Foundation Design","Section Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str136.jpg"
+                            data-caption="Foundation design"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str136.jpg"
+                                        srcset="img\terra\str136.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str136.jpg"
+                                        src="img\terra\str136.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Foundation sections</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str137.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str137.jpg"
+                                        srcset="img\terra\str137.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str137.jpg"
+                                        src="img\terra\str137.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Wind Analysis</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str138.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str138.jpg"
+                                        srcset="img\terra\str138.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str138.jpg"
+                                        src="img\terra\str138.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Moment Diagrams</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str139.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str139.jpg"
+                                        srcset="img\terra\str139.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str139.jpg"
+                                        src="img\terra\str139.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Finite Element Analysis</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str140.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str140.jpg"
+                                        srcset="img\terra\str140.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str140.jpg"
+                                        src="img\terra\str140.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Finite Element Analysis</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    <figure class="gallery_masonry-item col-md-6" data-groups='["Structural analysis","Section Design","Connections Design"]'>
+                        <a
+                            class="aspect aspect--1x1"
+                            href="img\terra\str141.jpg"
+                            data-caption="Structural analysis"
+                            data-role="gallery-link"
+                        >
+                            <div class="aspect__inner">
+                                <picture>
+                                    <source
+                                        data-srcset="img\terra\str141.jpg"
+                                        srcset="img\terra\str141.jpg"
+                                    />
+                                    <img
+                                        class="gallery_masonry-item_img lazy"
+                                        data-src="img\terra\str141.jpg"
+                                        src="img\terra\str141.jpg"
+                                        alt="media"
+                                    />
+                                </picture>
+                            </div>
+                            <div class="overlay d-flex flex-column justify-content-end">
+                                <h4 class="overlay_caption">Joist Framing Reinforcement</h4>
+                                <span class="overlay_label">Details</span>
+                            </div>
+                        </a>
+                    </figure>
+
+                    
+
+                    
+                </div>
+            </div>
+        </main>
+        <!-- GALLERY masonry CONTENT END -->
+        <footer class="footer primary-bg">
+            <div class="container">
+                
+                <div class="footer_secondary col-12 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+                    <p class="footer_secondary-copyright">
+                        <span>TERRADRAFT &copy; MARKETING</span>
+                        <span>All rights reserved Copyrights 2024</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </footer>
+        <button id="scrollToTop" type="button">
+            <i class="icon icon-arrow_right"></i>
+        </button>
+        <script src="js/common.min.js"></script>
+    </body>
+</html>
